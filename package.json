@@ -6,12 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EdmondWang/typescript-playground.git"
-  },
+  "repository": "git+https://github.com/EdmondWang/typescript-playground.git",
   "keywords": [],
-  "author": "",
+  "author": "Edmond Wang <644568491@qq.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EdmondWang/typescript-playground/issues"
@@ -19,5 +16,10 @@
   "homepage": "https://github.com/EdmondWang/typescript-playground#readme",
   "dependencies": {
     "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2"
   }
 }
