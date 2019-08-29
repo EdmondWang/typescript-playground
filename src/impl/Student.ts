@@ -1,8 +1,10 @@
 import IPerson from '../interface/IPerson';
 
 class Student implements IPerson {
+    firstName: string;
+    lastName: string;
 
-    constructor() {
+    constructor(firstName: string,  lastName: string) {
 
     }
 
