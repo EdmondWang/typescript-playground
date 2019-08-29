@@ -1,7 +1,12 @@
-function greeter(person: string) {
-    return "Hello, " + person;
+import IPerson from './interfaces/IPerson';
+
+function greeter(person: IPerson) {
+    return `Hello, ${person.firstName}.${person.lastName}`;
 }
 
-let user = "Edmond Wang";
+let user: IPerson = {
+    firstName: 'Edmond',
+    lastName: 'Wang'
+};
 
 document.body.textContent = greeter(user);
