@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc src/* --outDir dist"
+    "tsc": "tsc src/* --outFile dist/bundle.js"
   },
   "repository": "git+https://github.com/EdmondWang/typescript-playground.git",
   "keywords": [],

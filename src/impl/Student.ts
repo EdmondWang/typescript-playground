@@ -4,7 +4,7 @@ class Student implements IPerson {
     firstName: string;
     lastName: string;
 
-    constructor(firstName: string,  lastName: string) {
+    constructor(firstName: string, lastName: string) {
 
     }
 
